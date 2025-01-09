@@ -1,12 +1,12 @@
-# DevOps-RoadMap
+# DevOps-RoadMap-Resources
 
 
-# This Repository is for DevOps RoadMap 
+## This Repository is for DevOps RoadMap 
 
 This Repository is use for anyone to become a DevOps Engineer. Anyone who wants to become a DevOps engineer should follow this Repository
 
 
-## The RoadMap to become a DevOps in order is as Follow:
+## The RoadMap to become a DevOps Engineer in order is as Follow:
 
 - Linux
 - Shell Scripting
