@@ -1,0 +1,17 @@
+hostname : To check the name of the system
+uname : It shows which platform you are using the OS
+uptime : It shows how since how long the system is up, how many users are connected
+who : How many user have logged In and when the users have loggd In
+whoami : Shows the current user logged In
+which : To find where is the softwares installed
+id : To check the user details 
+sudo : To take root user permission while performing a task of running commands ( sudo = super user do )
+shutdown : To shutdown or power off the system
+reboot : To reboot or restart the system
+apt : To install a software present in the system
+apt-get : To install a software by getting it from the internet
+yum : Same as apt but use in CentOS
+dnf : Same as apt but use in Fedora
+pacman : Same as apt but use in Arch Linux
+portage : Same as apt but use in ChromeOS
+rmp : Same as apt but use in Red Hat (RHEL)

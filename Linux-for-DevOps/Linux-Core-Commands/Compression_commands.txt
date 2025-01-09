@@ -1,0 +1,5 @@
+zip filename_to_give file_convert_to_zip : Convert a file to zip file and compress it
+zip -r filename_to_give folder_convert_to_zip : Convert a folder to zip file and decompress it
+unzip : unzip a file or folder 
+gunzip : decompress a file to gzip same as zip file
+gzip : Convert / Compress a file to gzip same function as zip file

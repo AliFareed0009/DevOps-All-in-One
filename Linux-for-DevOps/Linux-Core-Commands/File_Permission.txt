@@ -1,0 +1,4 @@
+Umask : To check the default permissions given to the new files created. 
+chmod file_name : Change the  permission of file
+chown : Change the  ownership of the file
+chgrp : Change the group of the file

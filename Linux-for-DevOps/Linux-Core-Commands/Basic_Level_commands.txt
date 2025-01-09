@@ -1,0 +1,36 @@
+date : To see the date in the terminal
+mkdir folder_name : To make a folder / directory
+ls : List the files of folders
+ls -l : List the directories files in detail
+pwd  : To check which directory you are in
+touch filename.extension : To create a file
+clear : Clean the terminal
+cd : Change the directory
+cd .. : To go one directory backward
+/ : Root directory
+cd folder_name : Move one folder forward
+rm filename : Remove / Delete file
+rm -r : Remove / Delete directory (-r recursively everything in the folder) 
+rmdir : Remove / Delete directory
+cat file_name : To check or read what is in a file
+echo "Hello" : Print Hello in terminal
+echo "Hello" > file_name : Redirect the output of echo to file_name
+head file_name : Print top 5 lines
+tail file_name : Print last 5 lines
+less file_name: Open file in page wise
+more file_name: Open file in page wise
+cp file_name directory : Copy file to another directory
+cp directory/file_name directory : To copy the file in directory by giving the path
+cp -r directory_1 directory_2 : Copy the directory_1 in directory_2
+mv file_name ../directory/ : mv file_name to previous path directory
+mv file_name new_file_name : The file_name will change to new_file_name
+wc file_name :   Print the number_of_lines number_of_words number_of_bytes of the file_name
+soft link : If the file is far inside the directories (If main file is deleted then the softlink will also be deleted)
+hard link : If the file is far inside the directories (If main file is deleted then the hardlink will not be deleted)
+ln -s /path/ softlink-file_file_name : To make a softlink file (If the original file is change then the softlink file will also change)
+ln /path/ hardlink-file_file_name : To make a hardlink file (If the original file is change then the hardlink file will also change)
+cut -b 1 file_name : Cut the character and redirect it in the file_name
+cut -b 1-4 file_name : Cut the word and redirect it in the file_name (From character 1 to 4)
+echo "Hello" | tee Hello.txt : Print the word "Hello" and redirect in the file Hello.txt (Take input/output, display it in screen/terminal and in file)
+sort file_name : Sort the file content and print on the terminal
+diff file1 file2 : Print the difference between the files 

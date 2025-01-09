@@ -1,0 +1,8 @@
+ssh -i path_to_pem_file user_name@vm_name : To connect a server through ssh 
+df : Check disk usage
+df -h : Check disk usage in MBs and GBs
+du : Check the folder size
+ps : To check on which process ID bash is working
+kill process_id : To kill a process ID shown in the top command
+free : To check the details of RAM
+free -h : To check the details of RAM in MBs and GBs

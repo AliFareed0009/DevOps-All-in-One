@@ -1,0 +1,4 @@
+scp : To copy a file from local machine to ssh server ( scp -i "path/to/private_key.pem" source_file remote_server/path )
+scp : To copy a file from ssh server machine to local machine ( scp -i "path/to/private_key.pem" -r remote_server/path . )
+rsync : To sync local machine folder to server vm ( rsync -e ssh -i "path/to/private_key.pem" -avz file_name remote_server/path ) 
+{ a = archive, v = verbose, z = zip }

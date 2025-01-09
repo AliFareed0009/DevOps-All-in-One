@@ -1,0 +1,20 @@
+awk : To print a particluar line or lines ( Data should be formatted or structured column by column)
+ls | awk '{ print $1 }'
+awk '/cp/ {count++} END {print "The count of cp is :", count}' Basic_Level_commands.txt
+awk '$1 == "cp"' Basic_Level_commands.txt
+awk ' /:/ { print $1, $3 }' Basic_Level_commands.txt
+awk '{ print $1, $3 }' Basic_Level_commands.txt 
+
+sed : Same as awk command but works in structured non structured data ( Data should be formatted or non formatted line by line )
+sed -n '/cp/p' Basic_Level_commands.txt ( Strem editor ) { p + pattern }
+sed 's/cp/mv/g' Basic_Level_commands.txt ( s = sub-string, g = global )
+sed '1,10 s/directory/folder/g'  Basic_Level_commands.txt ( This will change the work directory to folder in top 10 lines )
+sed '1,15 s/folder/directory/g'; 1.10p; 11q  Basic_Level_commands.txt ( Chanfe the word folder to directory from line 1 to 15, print lines 1 to 10. quit on 11th line ) 
+
+grep : To match a patternd and find it ( Global regular expression pattern )
+grep directory Basic_Level_commands.txt
+grep -i Directories Basic_Level_commands.txt ( -i = case insensitive )
+grep -c Directories Basic_Level_commands.txt ( -c = count  )
+
+grep -i -c directory Basic_Level_commands.txt
+awk '/INFO/ {count++}  END {print count}' Basic_Level_commands.txt

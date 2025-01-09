@@ -1,0 +1,9 @@
+useradd : To add a user
+useradd -m : To add a user and its home directory  
+su user_name : To switch user
+passwd user_name : To set the password of the user 
+userdel user_name : To delete a user
+groupadd : To add a group
+gpasswd -a : To add a user to the group ( sudo gpasswd -a user_name group_name ) 
+gpasswd -m : To add multiple users to the group ( sudo gpasswd -m user_name, user_name group_name ) 
+groupdel : To delete a group

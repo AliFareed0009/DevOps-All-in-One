@@ -1,0 +1,20 @@
+ping : To check the data is flowing from one side to another, conncetion is fine or not
+Netstat : To check active internet connections and protocols
+ifconfig : To check how many network interface are present
+traceroute : To trace the root or to check how many times the IP hops between source and destination
+tracepath : To check the network latency
+mtr : To ping and tracepath at the same time ( my trace route )
+nslookup : To check the domain is working fine or not ( ping the server and shows the results of your ip and address )
+telnet : To connect a website and particular port ( telnet website.com port_number )
+ip address show : to show the ip address
+iwconfig : To check the wireless network connected
+ss : Same as Netstat
+arp : To check the MAC adddress of a computer
+dig : Where the website is hosted ( dig website.com )
+whois : To know all the details of a website ( whois website.com )
+ifplugstatus : To check the interface are working or not
+nmap : To check the Network map or check which port is open
+watch : To run the command every 2 seconds ( watch -n 5 top  )
+iptables : To check the address and routes in tablular form 
+curl : To get a response from a server, To call a API ( curl -x GET API_link ) To format the API { curl -x GET API_link | jq }
+wget : To download a file ( wget file_link )
